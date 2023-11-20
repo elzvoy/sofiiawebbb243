@@ -8,7 +8,20 @@
     </head>
     
     <body>
-        Content goes here.
+        <label for="numInput">Value 1</label><!--box for value 1-->
+<input type="number" id="a" name="a"><!--id for entered value 1-->
+<label for="numInput">Value 2</label><!--box for value 2-->
+<input type="number" id="b" name="b"><!--id for entered value 2-->
+<label for="checky">Solving for the hypotenuse?</label>
+<input type="checkbox" id="checky" name="checky">
+
+<button type="button" id="run">Press to find!</button>
+
+<p>A<sup>2</sup> = <span id="av"></span><!--squared final values-->
+<p>B<sup>2</sup> = <span id="bv"></span><!--squared final values-->
+<p>Hypotenuse = <span id="result"></span><!-- final value of hypotenuse-->
+
+<!--Pythagorean Theorem app that can solve for either the missing hypotenuse or one of the missing sides using the formula-->
         <script src="javascript.js"></script>
     </body>
 </html>
