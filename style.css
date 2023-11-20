@@ -1,0 +1,8 @@
+
+font-family: sans-serif;
+
+
+label, input, button{
+  display:block;
+  margin: 0.5rem 0;
+}
